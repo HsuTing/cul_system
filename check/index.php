@@ -12,6 +12,9 @@
 			<h3>姓名：徐鼎翔&nbsp;&nbsp;&nbsp;&nbsp;類組：二三類組</h3>
 			<div id = "type"><div id = "2"></div></div>
 
+			<div id = "form">
+			<div>
+			<table>
 			<?php
 				$temp = -1;
 				foreach($_POST as $name=>$value) {

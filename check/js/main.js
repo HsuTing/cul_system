@@ -8,7 +8,8 @@
 
 		//change name
 		for(var i in data.children) {
-			$("#" + i).children("h3")
+			$("#form").children("#" + i)
+			  .children("h3")
 			   .html(data.children[i].name);
 
 			for(var j in data.children[i].children) {
