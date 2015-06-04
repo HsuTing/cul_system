@@ -33,14 +33,14 @@
 				    .append(
 						"<tr>"
 						+ "<td>"
-						+ "<input type = \"text\" name = \"" + i + "_" + j + "\" autocomplete = \"off\" maxlength = \"1\" class = \"checkbox\"></input>"
+						+ "<input type = 'text' name = '" + i + "_" + j + "' autocomplete = 'off' maxlength = '1' class = 'checkbox'>"
 						+ "</td>"
 						+ "<td class = \"info\" id = \"" + i + "_" + j + "\">" + data.children[i].children[j].name + "</td>"
 						+ "</tr>"
 				    )
 				    .append(
 						"<tr>"
-						+ "<td colspan = \"2\" class = \"information\" id = \"information_" + i + "_" + j + "\">"
+						+ "<td colspan = '2' class = 'information' id = 'information_" + i + "_" + j + "'>"
 						+ "</td>"
 						+ "</tr>"
 					);
@@ -52,7 +52,7 @@
 			}
 
 			$("#form").children("#" + i)
-			    .append("<input type = \"button\" value = \"下一個\" id = \"next\"></input>");
+			    .append("<input type = 'button' value = '下一個' id = 'next'>");
 			$("#form").children("#" + i)
 			  .children("#next")
 			    .on("click", function() { return (count < data.children.length - 2) ? next() : end(); });
@@ -91,7 +91,7 @@
 		$("#form").children("#" + count)
 		    .show();
 		$("#form").children("#" + count)
-		    .append("<input type = \"submit\" value = \"送出\"></input>");
+		    .append("<input type = 'submit' value = '送出'>");
 		reset();
 	}
 

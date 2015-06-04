@@ -26,7 +26,7 @@
 							echo "<td>" . $value . "</td>";
 							echo "<td id = \"" . $name . "\"></td>";
 						echo "</tr>";
-						echo "<tr><input type = \"hidden\" name = \"" . $name . "\"></input></tr>";
+						echo "<tr><input type = \"hidden\" name = \"" . $name . "\"></tr>";
 
 						continue;
 					}
@@ -46,7 +46,7 @@
 								echo "<td>" . $value . "</td>";
 								echo "<td id = \"" . $name . "\"></td>";
 							echo "</tr>";
-							echo "<tr><input type = \"hidden\" name = \"" . $name . "\"></input></tr>";
+							echo "<tr><input type = \"hidden\" name = \"" . $name . "\"></tr>";
 					$temp = $name_array[0];
 				}
 			?>
@@ -54,7 +54,7 @@
 			</div>
 			<br><br>
 
-			<input type = "submit" value = "送出"></input>
+			<input type = "submit" value = "送出">
 		</form>
 	</body>
 
