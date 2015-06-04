@@ -1,4 +1,24 @@
+#main {
+	margin-bottom: 50px;
+}
+
 .checkbox {
 	width: 10px;
 	margin-left: 5px;
+}
+
+.info {
+	cursor: pointer;
+	color: blue;
+}
+
+.tip {
+	position: absolute;
+	line-height: 1.5;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+	opacity: 1;
 }

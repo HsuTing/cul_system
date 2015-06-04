@@ -14,7 +14,7 @@
 
 			for(var j in data.children[i].children) {
 				$("#" + i + "_" + j)
-				   .html(data.children[i].children[j]);
+				   .html(data.children[i].children[j].name);
 			}
 		}
 
