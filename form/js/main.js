@@ -13,7 +13,9 @@
 			$("#form").children("#" + i)
 			    .append("<h3>" + data.children[i].name + "</h3>");
 			$("#form").children("#" + i)
-			    .append("<table></table>");
+			    .append("<h6>請填入 1 ~ " + data.children[i].children.length + "</h6>");
+			$("#form").children("#" + i)
+			    .append("<table></table><br><br>");
 
 			$("#form").children("#" + i)
 			  .children("table")
@@ -29,7 +31,7 @@
 				  .children("table")
 				    .append(
 						"<tr>"
-						+ "<td><input type = \"text\" name = \"" + i + "_" + j + "\" maxlength = \"1\"></input></td>"
+						+ "<td><input type = \"text\" name = \"" + i + "_" + j + "\" maxlength = \"1\" class = \"checkbox\"></input></td>"
 						+ "<td>" + data.children[i].children[j] + "</td>"
 						+ "</tr>"
 				    );
@@ -51,6 +53,8 @@
 		//show first
 		$("#form").children("#" + count)
 		    .show();
+
+		reset();
 	});
 
 	function next() {
@@ -59,6 +63,7 @@
 		count++;
 		$("#form").children("#" + count)
 		    .show();
+		reset();
 	}
 
 	function end() {
@@ -71,5 +76,13 @@
 		    .show();
 		$("#form").children("#" + count)
 		    .append("<input type = \"submit\" value = \"送出\"></input>");
+		reset();
+	}
+
+	function reset() {
+		var height = $("#main").height();
+		console.log(height);
+
+		$("#main").css("marginTop", -1 * (height + 20) / 2);
 	}
 })();

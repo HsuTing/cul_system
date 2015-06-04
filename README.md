@@ -2,10 +2,7 @@
 
 ##Process
 
-- index.html
-- form
-- check
-- final
+> index.html -> form -> check -> final
 
 ##Use
 

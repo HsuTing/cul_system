@@ -3,13 +3,13 @@
 	<head>
 		<meta http-equiv ="Content-Type" content="text/html;charset=utf-8"/>
 
-		<link type="text/css" rel="stylesheet" href="css/set.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/style.css"/>
 	</head>
 
 	<body>
-		<div>
+		<div id = "main">
 			<h1>大學生活體驗營 選課系統</h1>
-			<h3>姓名：徐鼎翔&nbsp;&nbsp;&nbsp;&nbsp;類組：二三類組</h3>
+			<h4>姓名：徐鼎翔&nbsp;&nbsp;&nbsp;&nbsp;類組：二三類組</h4>
 			<div id = "type"><div id = "2"></div></div>
 
 			<div id = "form">
@@ -49,6 +49,7 @@
 			?>
 			</table>
 			</div>
+			<br><br>
 
 			<a href = "../final/"><input type = "button" value = "送出"></input></a>
 		</div>

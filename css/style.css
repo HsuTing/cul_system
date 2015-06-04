@@ -1,0 +1,89 @@
+body {
+	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 13;
+	font-weight: bold;
+}
+
+h1, h3, h4, h6 {
+	text-align: center;
+}
+
+#main, input {
+	padding: 10px;
+
+	border: 1px solid #BBBBBB;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+input {
+	margin: 5px;
+}
+
+input[type="submit"], input[type="button"] {
+	width: 20%;
+	margin-left: 40%;
+}
+
+#main {
+	position: absolute;
+	width: 92%;
+	top: 50%;
+	margin-top: -180px;
+
+	-moz-box-shadow: #000000 5px 5px 10px;
+	-webkit-box-shadow: #000000 5px 5px 10px;
+	box-shadow: #000000 5px 5px 10px;
+}
+
+#id , #pw, input {
+	width: 80%;
+	margin-left: 10%;
+}
+
+table, tr, td {
+	width: 400px;
+	text-align: center;
+}
+
+td {
+	width: 100px;
+}
+
+@media screen and (min-width: 850px) {
+	#main {
+		position: absolute;
+		width: 800px;
+		left: 50%;
+		top: 50%;
+		margin-left: -400px;
+		margin-top: -190px;
+	}
+
+	#id, #pw, input {
+		width: 400px;
+		margin: 5px;
+		margin-left: 200px;
+	}
+
+	input[type="submit"], input[type="button"] {
+		width: 200px;
+		margin-left: 300px;
+	}
+
+	table, tr, td {
+		width: 400px;
+		text-align: center;
+	}
+
+	table {
+		margin-left: 200px;
+	}
+
+	td {
+		width: 100px;
+	}
+}

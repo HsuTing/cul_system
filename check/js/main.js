@@ -17,5 +17,11 @@
 				   .html(data.children[i].children[j]);
 			}
 		}
+
+		$("#main").css({
+			top: 0,
+			marginTop: "20px",
+			marginBottom: "20px"
+		});
 	});
 })();
