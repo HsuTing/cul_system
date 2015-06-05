@@ -1,5 +1,12 @@
 #System
 
+##Comment
+
+```
+	This system is jsut a template.
+	This system does not use database.
+```
+
 ##Process
 
 > index.html -> form -> check -> final
@@ -9,7 +16,8 @@
 ```
 	use:
 
-		modify json in curriculum
+		modify json in curriculum,
+		and (id = type) in index.html decide use which json
 
 	Example:
 
