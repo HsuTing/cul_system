@@ -21,6 +21,8 @@
 
 	Example:
 
+		1.json:
+
 		{
 		  "name": "課程",
 		  "children": [
