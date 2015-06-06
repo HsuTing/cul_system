@@ -2,15 +2,21 @@ body {
 	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 13;
 	font-weight: bold;
+
+	background: url("bg.jpg");
 }
 
 h1, h3, h4, h6 {
+	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: bold;
+
 	text-align: center;
 }
 
 #main, input {
 	padding: 10px;
 
+	background: white;
 	border: 1px solid #BBBBBB;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;

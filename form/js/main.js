@@ -35,7 +35,7 @@
 				    .append(
 						"<tr>"
 						+ "<td>"
-						+ "<input type = 'text' name = '" + i + "_" + j + "' autocomplete = 'off' maxlength = '1' class = 'checkbox' id = 'check_" + i + "_" + j + "'>"
+						+ "<input type = 'text' name = '" + i + "_" + j + "' autocomplete = 'off' maxlength = '1' class = 'check_box' id = 'check_" + i + "_" + j + "'>"
 						+ "</td>"
 						+ "<td class = 'info' id = '" + i + "_" + j + "'>" + data.children[i].children[j].name + "</td>"
 						+ "</tr>"
@@ -54,7 +54,7 @@
 			}
 
 			$("#form").children("#" + i)
-			    .append("<input type = 'button' value = '下一個' id = 'next'>");
+			    .append("<input type = 'button' value = '下一個' id = 'next' class = 'btn btn-lg btn-primary'>");
 			$("#form").children("#" + i)
 			  .children("#next")
 			    .on("click", function() { return check() ? ((count < data.children.length - 2) ? next() : end()) : alert(alertText[count]); });
@@ -121,7 +121,7 @@
 		$("#form").children("#" + count)
 		    .show();
 		$("#form").children("#" + count)
-		    .append("<input type = 'submit' value = '送出' id = 'next'>")
+		    .append("<input type = 'submit' value = '送出' id = 'next' class = 'btn btn-lg btn-primary'>")
 
 		$("#form").children("#" + count)
 		  .children("#next")
